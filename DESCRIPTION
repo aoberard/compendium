@@ -1,6 +1,6 @@
 Package: compendium
 Type: Package
-Title: The Title of the Project
+Title: Research_compendium
 Version: 0.0.0.9000
 Authors@R: c(
     person(given   = "Alois",
@@ -8,11 +8,13 @@ Authors@R: c(
            role    = c("aut", "cre", "cph"),
            email   = "aloisberard@outlook.fr",
            comment = c(ORCID = "0000-0002-0656-1461")))
-Description: A paragraph providing a full description of the project (on 
-    several lines...)
+Description: Exercice du CESAB 2023 pour la création d'un research compendium)
 URL: https://github.com/aoberard/compendium
 BugReports: https://github.com/aoberard/compendium/issues
 License: GPL-2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Depends: 
+    here,
+    utils
